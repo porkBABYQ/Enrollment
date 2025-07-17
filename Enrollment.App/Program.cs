@@ -1,5 +1,6 @@
 using AutoMapper;
 using Enrollment.App.Configuration;
+using Enrollment.App.Models.Repository;
 using Enrollment.DataModel;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,8 @@ builder.Services.AddDbContext<AppDbContext>(opts =>
 });
 
 builder.Services.AddAutoMapper(typeof(MapperConfigs));
+
+builder.Services.AddScoped<ITeacherRepo, TeacherRepo>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

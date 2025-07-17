@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Enrollment.DataModel\Enrollment.DataModel.csproj" />
+    <ProjectReference Include="..\Entprog.DataModel\Entprog.DataModel.csproj" />
   </ItemGroup>
 
 </Project>

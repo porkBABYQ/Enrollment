@@ -9,6 +9,7 @@ namespace Enrollment.App.Configuration
         public MapperConfigs()
         {
             CreateMap<Student, StudentVM>().ReverseMap();
+            CreateMap<Teacher, TeacherVM>().ReverseMap();
         }
     }
 }
