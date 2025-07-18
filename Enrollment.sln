@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enrollment.DataModel", "Enr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enrollment.App", "Enrollment.App\Enrollment.App.csproj", "{34C01047-4B7E-4494-9E23-C52733838A76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entprog.DataModel", "Entprog.DataModel\Entprog.DataModel.csproj", "{30C81C4D-3F8E-4418-8E99-B2B380CC2D95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entprog.DataModel", "Entprog.DataModel\Entprog.DataModel.csproj", "{30C81C4D-3F8E-4418-8E99-B2B380CC2D95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

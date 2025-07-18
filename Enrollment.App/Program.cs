@@ -14,6 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(opts =>
 builder.Services.AddAutoMapper(typeof(MapperConfigs));
 
 builder.Services.AddScoped<ITeacherRepo, TeacherRepo>();
+builder.Services.AddScoped<ISubjectRepo, SubjectRepo>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

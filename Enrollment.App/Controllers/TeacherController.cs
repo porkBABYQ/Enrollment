@@ -17,7 +17,6 @@ namespace Enrollment.App.Controllers
         }
         public async Task<IActionResult> Index()
         {
-
             return View(mapper.Map<List<TeacherVM>>(await repo.GetAllAsync()));
         }
 
